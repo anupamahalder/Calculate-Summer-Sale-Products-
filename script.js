@@ -40,8 +40,8 @@ kt1.addEventListener('click',function(){
     //Change the value of prices section
     const previousPriceElement = document.getElementById('sum-price').innerText;
     const addedPrice = itemPrice + parseFloat(previousPriceElement);
-    sumPriceElement.innerText = addedPrice;
-    totalPriceElement.innerText = addedPrice;
+    sumPriceElement.innerText = addedPrice.toFixed(2);
+    totalPriceElement.innerText = addedPrice.toFixed(2);
     purchaseEle.removeAttribute('disabled');
 })
 // Kitchen item 2 
@@ -69,8 +69,8 @@ kt2.addEventListener('click',function(){
     //Change the value of prices section
     const previousPriceElement = document.getElementById('sum-price').innerText;
     const addedPrice = itemPrice + parseFloat(previousPriceElement);
-    sumPriceElement.innerText = addedPrice;
-    totalPriceElement.innerText = addedPrice;
+    sumPriceElement.innerText = addedPrice.toFixed(2);
+    totalPriceElement.innerText = addedPrice.toFixed(2);
     purchaseEle.removeAttribute('disabled');
 })
 // Kitchen item 3 
@@ -98,8 +98,8 @@ kt3.addEventListener('click',function(){
     //Change the value of prices section
     const previousPriceElement = document.getElementById('sum-price').innerText;
     const addedPrice = itemPrice + parseFloat(previousPriceElement);
-    sumPriceElement.innerText = addedPrice;
-    totalPriceElement.innerText = addedPrice;
+    sumPriceElement.innerText = addedPrice.toFixed(2);
+    totalPriceElement.innerText = addedPrice.toFixed(2);
     purchaseEle.removeAttribute('disabled');
 })
 // Sports item 1  
@@ -126,8 +126,8 @@ sp1.addEventListener('click',function(){
     //Change the value of prices section
     const previousPriceElement = document.getElementById('sum-price').innerText;
     const addedPrice = itemPrice + parseFloat(previousPriceElement);
-    sumPriceElement.innerText = addedPrice;
-    totalPriceElement.innerText = addedPrice;
+    sumPriceElement.innerText = addedPrice.toFixed(2);
+    totalPriceElement.innerText = addedPrice.toFixed(2);
     purchaseEle.removeAttribute('disabled');
 })
 // Sports item 2 
@@ -154,8 +154,8 @@ sp2.addEventListener('click',function(){
     //Change the value of prices section
     const previousPriceElement = document.getElementById('sum-price').innerText;
     const addedPrice = itemPrice + parseFloat(previousPriceElement);
-    sumPriceElement.innerText = addedPrice;
-    totalPriceElement.innerText = addedPrice;
+    sumPriceElement.innerText = addedPrice.toFixed(2);
+    totalPriceElement.innerText = addedPrice.toFixed(2);
     purchaseEle.removeAttribute('disabled');
 })
 // Sports item 3 
@@ -183,8 +183,8 @@ sp3.addEventListener('click',function(){
     //Change the value of prices section
     const previousPriceElement = document.getElementById('sum-price').innerText;
     const addedPrice = itemPrice + parseFloat(previousPriceElement);
-    sumPriceElement.innerText = addedPrice;
-    totalPriceElement.innerText = addedPrice;
+    sumPriceElement.innerText = addedPrice.toFixed(2);
+    totalPriceElement.innerText = addedPrice.toFixed(2);
     purchaseEle.removeAttribute('disabled');
 })
 // Furniture item 1 
@@ -211,8 +211,8 @@ fn1.addEventListener('click',function(){
     //Change the value of prices section
     const previousPriceElement = document.getElementById('sum-price').innerText;
     const addedPrice = itemPrice + parseFloat(previousPriceElement);
-    sumPriceElement.innerText = addedPrice;
-    totalPriceElement.innerText = addedPrice;
+    sumPriceElement.innerText = addedPrice.toFixed(2);
+    totalPriceElement.innerText = addedPrice.toFixed(2);
     purchaseEle.removeAttribute('disabled');
 })
 // Furniture item 2 
@@ -240,8 +240,8 @@ fn2.addEventListener('click',function(){
     //Change the value of prices section
     const previousPriceElement = document.getElementById('sum-price').innerText;
     const addedPrice = itemPrice + parseFloat(previousPriceElement);
-    sumPriceElement.innerText = addedPrice;
-    totalPriceElement.innerText = addedPrice;
+    sumPriceElement.innerText = addedPrice.toFixed(2);
+    totalPriceElement.innerText = addedPrice.toFixed(2);
     purchaseEle.removeAttribute('disabled');
 })
 // Furntinure item 3
@@ -269,7 +269,7 @@ fn3.addEventListener('click',function(){
     //Change the value of prices section
     const previousPriceElement = document.getElementById('sum-price').innerText;
     const addedPrice = itemPrice + parseFloat(previousPriceElement);
-    sumPriceElement.innerText = addedPrice;
-    totalPriceElement.innerText = addedPrice;
+    sumPriceElement.innerText = addedPrice.toFixed(2);
+    totalPriceElement.innerText = addedPrice.toFixed(2);
     purchaseEle.removeAttribute('disabled');
 })

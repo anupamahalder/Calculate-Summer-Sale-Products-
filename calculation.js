@@ -26,9 +26,9 @@ document.getElementById('coupon-input').addEventListener('keyup',function(event)
         //do task
         document.getElementById('coupon-btn').addEventListener('click',function(){
             const discountedPrice = sumValue * (.2);
-            discountPriceEle.innerText = discountedPrice;
+            discountPriceEle.innerText = discountedPrice.toFixed(2);
             const newPrice = sumValue - discountedPrice;
-            totalPriceEle.innerText = newPrice;
+            totalPriceEle.innerText = newPrice.toFixed(2);
             //clear the input filed
             inputField.value = '';
         })
