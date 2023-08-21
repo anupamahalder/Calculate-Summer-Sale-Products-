@@ -26,6 +26,7 @@ kt1.addEventListener('click',function(){
     //create a element you want to add
     const cardP = document.createElement('p');//tag name of element
     cardP.style.fontSize='20px';
+    cardP.style.paddingLeft='8px';
     cardP.style.fontWeight='bold';
     //count the total child of parent
     const count = cardEntry.childElementCount;
@@ -54,6 +55,7 @@ kt2.addEventListener('click',function(){
     //create a element you want to add
     const cardP = document.createElement('p');//tag name of element
     cardP.style.fontSize='20px';
+    cardP.style.paddingLeft='8px';
     cardP.style.fontWeight='bold';
     //count the total child of parent
     const count = cardEntry.childElementCount;
@@ -82,6 +84,7 @@ kt3.addEventListener('click',function(){
     //create a element you want to add
     const cardP = document.createElement('p');//tag name of element
     cardP.style.fontSize='20px';
+    cardP.style.paddingLeft='8px';
     cardP.style.fontWeight='bold';
     //count the total child of parent
     const count = cardEntry.childElementCount;
@@ -109,6 +112,7 @@ sp1.addEventListener('click',function(){
     //create a element you want to add
     const cardP = document.createElement('p');//tag name of element
     cardP.style.fontSize='20px';
+    cardP.style.paddingLeft='8px';
     cardP.style.fontWeight='bold';
     //count the total child of parent
     const count = cardEntry.childElementCount;
@@ -136,6 +140,7 @@ sp2.addEventListener('click',function(){
     //create a element you want to add
     const cardP = document.createElement('p');//tag name of element
     cardP.style.fontSize='20px';
+    cardP.style.paddingLeft='8px';
     cardP.style.fontWeight='bold';
     //count the total child of parent
     const count = cardEntry.childElementCount;
@@ -164,6 +169,7 @@ sp3.addEventListener('click',function(){
     //create a element you want to add
     const cardP = document.createElement('p');//tag name of element
     cardP.style.fontSize='20px';
+    cardP.style.paddingLeft='8px';
     cardP.style.fontWeight='bold';
     //count the total child of parent
     const count = cardEntry.childElementCount;
@@ -191,6 +197,7 @@ fn1.addEventListener('click',function(){
     //create a element you want to add
     const cardP = document.createElement('p');//tag name of element
     cardP.style.fontSize='20px';
+    cardP.style.paddingLeft='8px';
     cardP.style.fontWeight='bold';
     //count the total child of parent
     const count = cardEntry.childElementCount;
@@ -219,6 +226,7 @@ fn2.addEventListener('click',function(){
     //create a element you want to add
     const cardP = document.createElement('p');//tag name of element
     cardP.style.fontSize='20px';
+    cardP.style.paddingLeft='8px';
     cardP.style.fontWeight='bold';
     //count the total child of parent
     const count = cardEntry.childElementCount;
@@ -247,6 +255,7 @@ fn3.addEventListener('click',function(){
     //create a element you want to add
     const cardP = document.createElement('p');//tag name of element
     cardP.style.fontSize='20px';
+    cardP.style.paddingLeft='8px';
     cardP.style.fontWeight='bold';
     //count the total child of parent
     const count = cardEntry.childElementCount;
