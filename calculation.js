@@ -38,3 +38,10 @@ document.getElementById('coupon-input').addEventListener('keyup',function(event)
     }
 })
 
+//Go back to home button
+document.getElementById('home-btn').addEventListener('click',function(){
+    discountPriceEle.innerText = '';
+    totalPriceEle.innerText = '';
+    sumPriceEle.innerText = '';
+    window.location.href = './index.html';
+})

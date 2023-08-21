@@ -9,7 +9,7 @@
 </head>
 <body class="font-sans">
     <!-- Header / banner section  -->
-    <header class="flex bg-yellow-50">
+    <header class="flex w-full bg-yellow-50">
         <div class="flex-1 my-auto px-5 text-center">
             <h2 class="text-3xl pb-5">---SALE FEVER---</h2>
             <h1 class="text-5xl font-extrabold pb-3">Purchase TK 200 or <br> 
@@ -39,7 +39,7 @@
                     <!-- Kitchenware items  -->
                     <div class="flex gap-5 px-3">
                         <!-- item 1 -->
-                        <div id="kitchen-div-id1" class="card text-center w-96 shadow-xl">
+                        <div id="kitchen-div-id1" class="card text-center w-64 shadow-xl">
                             <figure class="bg-slate-400"><img class="" src="./images/prod1.png" alt="kitchen-item1" /></figure>
                             <div class="card-body text-amber-400 text-center mx-auto">
                                 <div class="rating">
@@ -54,7 +54,7 @@
                             </div>
                         </div>
                         <!-- item 2 -->
-                        <div id="kitchen-div-id2" class="card text-center w-96 shadow-xl">
+                        <div id="kitchen-div-id2" class="card text-center w-64 shadow-xl">
                             <figure class="bg-slate-400"><img class="" src="./images/prod2.png" alt="kitchen-item2" /></figure>
                             <div class="card-body text-amber-400 text-center mx-auto">
                                 <div class="rating">
@@ -69,7 +69,7 @@
                             </div>
                         </div>
                         <!-- item 3  -->
-                        <div id="kitchen-div-id3" class="card text-center w-96 shadow-xl">
+                        <div id="kitchen-div-id3" class="card text-center w-64 shadow-xl">
                             <figure class="bg-slate-400"><img class="" src="./images/prod3.png" alt="kitchen-item3" /></figure>
                             <div class="card-body text-amber-400 text-center mx-auto">
                                 <div class="rating">
@@ -91,7 +91,7 @@
                     <!-- Sportswear div  -->
                     <div class="flex gap-5 px-3">
                         <!-- item 1 -->
-                        <div id="sports-div-id1" class="card text-center w-96 shadow-xl">
+                        <div id="sports-div-id1" class="card text-center w-64 shadow-xl">
                             <figure class="bg-slate-400"><img class="" src="./images/prod4.png" alt="sports-item1" /></figure>
                             <div class="card-body text-amber-400 text-center mx-auto">
                                 <div class="rating">
@@ -106,7 +106,7 @@
                             </div>
                         </div>
                         <!-- item 2 -->
-                        <div id="sports-div-id2" class="card text-center w-96 shadow-xl">
+                        <div id="sports-div-id2" class="card text-center w-64 shadow-xl">
                             <figure class="bg-slate-400"><img class="" src="./images/prod5.png" alt="sports-item2" /></figure>
                             <div class="card-body text-amber-400 text-center mx-auto">
                                 <div class="rating">
@@ -121,7 +121,7 @@
                             </div>
                         </div>
                         <!-- item 3  -->
-                        <div id="sports-div-id3" class="card text-center w-96 shadow-xl">
+                        <div id="sports-div-id3" class="card text-center w-64 shadow-xl">
                             <figure class="bg-slate-400"><img class="" src="./images/prod6.png" alt="sports-item3" /></figure>
                             <div class="card-body text-amber-400 text-center mx-auto">
                                 <div class="rating">
@@ -143,7 +143,7 @@
                     <!-- Furniture div  -->
                     <div class="flex gap-5 px-3">
                         <!-- item 1 -->
-                        <div id="furniture-div-id1" class="card text-center w-96 shadow-xl">
+                        <div id="furniture-div-id1" class="card text-center w-64 shadow-xl">
                             <figure class="bg-slate-400"><img class="" src="./images/prod7.png" alt="furniture-item2" /></figure>
                             <div class="card-body text-amber-400 text-center mx-auto">
                                 <div class="rating">
@@ -158,7 +158,7 @@
                             </div>
                         </div>
                         <!-- item 2 -->
-                        <div id="furniture-div-id2" class="card text-center w-96 shadow-xl">
+                        <div id="furniture-div-id2" class="card text-center w-64 shadow-xl">
                             <figure class="bg-slate-400"><img class="" src="./images/prod8.png" alt="furniture-item2" /></figure>
                             <div class="card-body text-amber-400 text-center mx-auto">
                                 <div class="rating">
@@ -173,7 +173,7 @@
                             </div>
                         </div>
                         <!-- item 3  -->
-                        <div id="furniture-div-id3" class="card text-center w-96 shadow-xl">
+                        <div id="furniture-div-id3" class="card text-center w-64 shadow-xl">
                             <figure class="bg-slate-400"><img class="" src="./images/prod9.png" alt="furniture-item3" /></figure>
                             <div class="card-body text-amber-400 text-center mx-auto">
                                 <div class="rating">
@@ -190,6 +190,7 @@
                     </div>
                 </div>
             </div>
+            
             <!-- Cart section  -->
             <div class="flex-auto">
                 <!-- Coupon div  -->
@@ -222,9 +223,22 @@
                     </div>
                     <hr class="text-gray-300">
                 </div>
-                <button id="purchase-btn" disabled class="bg-pink-500 ml-12 -mt-4 px-8 py-4 text-2xl font-medium text-white rounded-lg">
+                <button id="purchase-btn" onclick="my_modal_1.showModal()" disabled class="bg-pink-500 ml-12 -mt-4 px-8 py-4 text-2xl font-medium text-white rounded-lg">
                     Make Purchase
                 </button>
+                <!-- Modal section  -->
+                <!-- <button class="btn" onclick="my_modal_1.showModal()">open modal</button> -->
+                <dialog id="my_modal_1" class="modal">
+                <form method="dialog" class="modal-box">
+                    <img class="mx-auto" src="./images/congo.png" alt="">
+                    <h3 class="font-bold text-center text-3xl">Congratulations</h3>
+                    <p class="py-4 text-center">Your Purchase the product</p>
+                    <div class="modal-action">
+                    <!-- if there is a button in form, it will close the modal -->
+                    <button id="home-btn" class="mx-auto bg-pink-500 px-4 py-2 text-xl font-medium text-white rounded-lg">Go Home</button>
+                    </div>
+                </form>
+                </dialog>
             </div>
         </section>
     </main>
