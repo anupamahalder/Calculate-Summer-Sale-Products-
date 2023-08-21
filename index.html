@@ -9,28 +9,28 @@
 </head>
 <body class="font-sans">
     <!-- Header / banner section  -->
-    <header class="flex w-full sm:flex-col-reverse lg:flex-row py-10 bg-yellow-50">
+    <header class="flex w-full flex-col lg:flex-row py-10 bg-yellow-50">
         <div class="flex-1 my-auto px-5 text-center">
             <h2 class="text-3xl pb-5">---SALE FEVER---</h2>
             <h1 class="text-3xl md:text-5xl font-extrabold md:pb-3">Purchase TK 200 or <br> 
                 above & get <span class="text-pink-500">20% off</span></h1>
-            <div class="sm:pt-10 grid grid-cols-2 md:pl-12 md:-mt-4 md:pb-8 mt-14 my-auto text-center pt-3 mx-auto">
-                <div class="text-right text-2xl pr-2">
+            <div class="sm:pt-10 grid grid-cols-1 md:grid-cols-2 md:pl-12 md:-mt-4 md:pb-8 mt-14 my-auto text-center pt-3 mx-auto">
+                <div class="text-center md:text-right text-2xl pr-2">
                     <p class="md:mt-3 text-3xl font-semibold">Use Promo Code</p>
                 </div>
-                <div class="text-left">
+                <div class="text-center md:text-left">
                     <button class="bg-pink-500 px-8 py-3 text-2xl font-medium text-white rounded-lg">SELL200</button>
                 </div>
             </div>
         </div>
         <div class="flex-1">
-            <img class="md:w-3/4 mx-auto lg:w-full" src="./images/Summer 1.png" alt="Summer offer">
+            <img class="w-auto md:w-3/4 mx-auto lg:w-full" src="./images/Summer 1.png" alt="Summer offer">
         </div>
     </header>
     <!-- This is main section  -->
     <main>
         <!-- Card section and cart section  -->
-        <section class="bg-gray-50 flex pb-12 sm:flex-col lg:flex-row">
+        <section class="bg-gray-50 flex pb-12 flex-col md:flex-col lg:flex-row">
             <!-- Card section  -->
             <div class="">
                 <!-- Kitchenware div  -->
@@ -192,16 +192,16 @@
             <!-- Cart section  -->
             <div class="flex-auto">
                 <!-- Coupon div  -->
-                <div class="py-8 mt-20 md:w-3/4 md:mx-auto mr-3 px-1 bg-white shadow-lg rounded-lg">
-                    <h1 class="text-left text-2xl font-bold pb-6 md:pl-5 lg:pl-3">Have Coupon?</h1>
-                    <div class="md:pl-6 lg:pl-0">
+                <div class="py-8 mt-20 md:w-3/4 md:mx-auto mx-3 lg:mr-3 px-1 bg-white shadow-lg rounded-lg">
+                    <h1 class="text-left text-2xl font-bold pb-6 pl-3 md:pl-5 lg:pl-3">Have Coupon?</h1>
+                    <div class="pl-3 md:pl-6 lg:pl-0">
                         <input id="coupon-input"  class="border rounded-md text-gray-500 md:w-96 lg:w-auto py-2 pl-2" type="text" name="" id="" placeholder="Coupon Code">
-                        <button id="coupon-btn" disabled class="bg-pink-500 py-2 text-xl md:px-10 lg:px-4 font-medium text-white rounded-lg">
+                        <button id="coupon-btn" disabled class="bg-pink-500 py-2 px-8 text-xl md:px-10 lg:px-4 font-medium text-white rounded-lg">
                         Apply</button>
                     </div>
                 </div>
                 <!-- Make purchase div  -->
-                <div class="py-8 mt-10 md:w-3/4 md:mx-auto pt-4 mr-3 px-1 bg-white shadow-lg rounded-lg">
+                <div class="py-8 mt-10 md:w-3/4 md:mx-auto pt-4 mx-3 lg:mr-3 px-1 bg-white shadow-lg rounded-lg">
                     <!-- Card add div  -->
                     <div id="dynamic-card-div">
 
@@ -221,7 +221,7 @@
                     </div>
                     <hr class="text-gray-300">
                 </div>
-                <button id="purchase-btn" onclick="my_modal_1.showModal()" disabled class="bg-pink-500 md:ml-64 lg:w-auto ml-12 md:-mt-4 px-8 py-2 text-2xl font-medium text-white rounded-lg">
+                <button id="purchase-btn" onclick="my_modal_1.showModal()" disabled class="bg-pink-500 ml-20 -mt-5 md:ml-64 lg:w-auto lg:ml-24 md:-mt-4 px-8 py-2 text-2xl font-medium text-white rounded-lg">
                     Make Purchase
                 </button>
                 <!-- Modal section  -->
