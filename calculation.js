@@ -46,15 +46,20 @@ document.getElementById('home-btn').addEventListener('click',function(){
     window.location.href = './index.html';
 })
 
-const ratingEle1 = document.getElementById('r1');
-ratingEle1.style.backgroundColor='orange';
-const ratingEle2 = document.getElementById('r2');
-ratingEle2.style.backgroundColor='orange';
-const ratingEle3 = document.getElementById('r3');
-ratingEle3.style.backgroundColor='orange';
-const ratingEle4 = document.getElementById('r4');
-ratingEle4.style.backgroundColor='orange';
-const ratingEle5 = document.getElementById('r5');
-ratingEle5.style.backgroundColor='orange';
-const ratingEle6 = document.getElementById('r6');
-ratingEle6.style.backgroundColor='orange';
+//Apply loop to color ratings
+function changeColor(){
+    for(let i=1;i<46;i++){
+        let str1 = 'r';
+        let str2 = i.toString();
+        let inputId = str1.concat(str2);
+        console.log(inputId);
+        const ratingEle = document.getElementById(inputId);
+        if(((i+1)%5===0 || i%5 === 0 )&& (i<=20 || i>35)){
+            ratingEle.style.backgroundColor='gold';
+            continue;
+        }else{
+            ratingEle.style.backgroundColor='orange';
+        }
+    }
+}
+changeColor();
