@@ -45,3 +45,16 @@ document.getElementById('home-btn').addEventListener('click',function(){
     sumPriceEle.innerText = '';
     window.location.href = './index.html';
 })
+
+const ratingEle1 = document.getElementById('r1');
+ratingEle1.style.backgroundColor='orange';
+const ratingEle2 = document.getElementById('r2');
+ratingEle2.style.backgroundColor='orange';
+const ratingEle3 = document.getElementById('r3');
+ratingEle3.style.backgroundColor='orange';
+const ratingEle4 = document.getElementById('r4');
+ratingEle4.style.backgroundColor='orange';
+const ratingEle5 = document.getElementById('r5');
+ratingEle5.style.backgroundColor='orange';
+const ratingEle6 = document.getElementById('r6');
+ratingEle6.style.backgroundColor='orange';
